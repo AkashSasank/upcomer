@@ -33,7 +33,7 @@ header{
   padding-top: 5px;
   padding-right: 60px;
 }
-.nav-div{
+.navbar{
   margin: 0% 20%;
   display: flex;
   flex-direction: row;
@@ -41,34 +41,63 @@ header{
   justify-content: space-between;
   padding-top: 10px;
 }
-.icons-div{
+ul{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  width: 50px;
+  justify-content: space-around
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 10%;
   height: auto;
   padding-top: 5px;
 }
+.facebook{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #3b5998;
+  display: flex;
+  justify-content: space-around;
+}
+.twitter{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #55ACEE;
+  display: flex;
+  justify-content: space-around;
+}
+i{
+  padding-top:25% 
+}
 #hashtag {
-  height: 300px;;
+  height: 300px;
   background-color: #333333;
   background-image: url('../images/hand.png');
   background-repeat: no-repeat; 
   background-position: 30% 100%;
 }
-.hash-div{
+.hash{
   display: flex;
   flex-direction: row;
   color: #ffffff;
   justify-content: space-around;
   text-align: center;
+  height: inherit;
   /* padding: 10px 10px; */
 }
-.hash-div h2{
+.hash h2{
   position: relative;
-  font-size: 35px;
-  margin: 10% 0%;
+  font-size: 3vw;
+  height: 3.5vw ;
+  top: 45%;
+  left: 5%;
+  /* margin: 3.5em 0%; */
   font-weight: bold;
 }
 footer {
